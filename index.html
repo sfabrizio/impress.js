@@ -163,19 +163,32 @@
         It will not be rotated or scaled.
 
     -->
-    <div class="step slide" data-x="-1500" data-y="-1500">
-        <q>Web development</q>
-        <img src="" alt="">
+
+    <style>
+
+    </style>
+
+    <div class="step slide" data-x="-5500" data-y="-1500">
+        <div style="margin-left: 140px">
+            <q>Web development</q>
+        </div>
+        <br><br>
+        <div style="margin-left: 220px">
+            <img src="img/nodejs.png" alt="">
+        </div>
     </div>
 
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+    <div class="step slide" data-x="-3000" data-y="-1500" >
         <q>Porqueee?</q>
-        <ul>
-            <li>Necesitamos <strong>seguridad</strong> a la hora de pasar codigo a producccion</li>
-            <li>Podriamos empezar a aplicar <strong>code review</strong>.</li>
-            <li>No estaria bueno poder saber que <strong>version</strong> tenemos en produccion?</li>
-            <li>Que version en developement?</li>
-        </ul>
+        <br>
+        <p>- Necesitamos <strong>seguridad</strong> a la hora de pasar codigo a producccion</p>
+        <br>
+        <p>- Podriamos empezar a aplicar <strong>code review</strong>.</p>
+        <br>
+        <p>- No estaria bueno poder saber que <strong>version</strong> tenemos en produccion?</p>
+        <br>
+        <p>- Que version en developement?</p>
+
     </div>
 
     <!--
@@ -193,26 +206,25 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
 
     -->
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Como?</q>
-        <q>Que necesitamos?</q>
-        <ul>
-            <li>Feature Branch workflow</li>
-            <li>Git workflow</li>
-            <li>Interactuar un poco mas con Gitlab, Stash o nuestro gestor de Repositorios de preferencia.</li>
-        </ul>
+    <div class="step slide" data-x="-4000" data-y="-1500">
+        <q>Como? Que necesitamos?</q>
+        <br>
+        <p>- Feature Branch workflow</p>
+        <br>
+        <p>- GitFlow workflow</p>
+        <br>
+        <p>- Interactuar un poco mas con Gitlab, Stash o nuestro gestor de Repositorios de preferencia.</p>
+
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Donde?</q>
-        <q>The source source..</q>
-        <ul>
-            <li>Atlassian Doc: <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a></li>
-            <li>Proyectos open source.. (bower,npm packages,etc..)</li>
-            <li>y de Varios años de uso..</li>
-        </ul>
-
-
+    <div class="step slide" data-x="5500" data-y="-1500">
+        <q>Donde? (The source..)</q>
+        <br>
+        <p>https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</p>
+        <br>
+        <p>Proyectos open source.. (bower,npm packages,etc..)</p>
+        <br>
+        <p>y de Varios años de uso..</p>
     </div>
 
     <!--
@@ -225,7 +237,7 @@
         down (4 times) to make it back to its correct size.
 
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+    <div id="title" class="step" data-x="-8000" data-y="1500" data-scale="4">
         <span class="try">so..</span>
         <h1>Git Workflows<sup>*</sup></h1>
         <span class="footnote"><sup>*</sup> Let's see them.</span>
@@ -239,18 +251,16 @@
         element should be rotated by 90 degrees clockwise.
 
     -->
-    <div id="source" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="8">
+    <div id="source" class="step" data-x="-2000" data-y="-9000" data-rotate="90" data-scale="8">
         <b>Master</b>
         <p>...</p>
     </div>
 
-    <div id="big2" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+    <div  class="step" data-x="-100" data-y="-2000" data-rotate="180" data-scale="6">
         <p>Master Branch</p>
-        <ul>
-            <li>Es el branch de produccion.</li>
-            <li>Deberia estar estable todo el tiempo.</li>
-            <li><span class="thoughts">Nadie</span> debe commitear directamente en el.</li>
-        </ul>
+        <p>- Es el branch de produccion.</p>
+        <p>- Deberia estar estable todo el tiempo.</p>
+        <p>- <span class="thoughts">Nadie</span> debe commitear directamente en el.</p>
     </div>
 
     <!--
@@ -262,10 +272,11 @@
         positioned far away from us (by 3000px).
 
     -->
-    <div id="tiny2" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+    <div  class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <b>Develop Branch</b>
-        <img src="/img/luke.png" alt="">
         <p>...</p>
+        <br>
+        <img src="img/ovi.jpeg" style="margin-left: 400px;">
     </div>
 
     <!--
@@ -288,30 +299,35 @@
         Only one current step has the `present` class.
 
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+    <div class="step" data-x="9500" data-y="-6050" data-rotate="270" data-scale="10">
         <p>Develop Branch</p>
-        <ul>
-            <li>New Features</li>
-            <li>Bug fixing</li>
-            <li>De donde nace nuestra version estable</li>
-        </ul>
+        <br>
+        <p>- New Features</p>
+        <br>
+        <p>- Bug fixing</p>
+        <br>
+        <p>- De donde nace nuestra version estable</p>
         <!--<p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>-->
     </div>
 
-    <div id="imagination2" class="step" data-x="6700" data-y="-300" data-scale="6">
-         <p><b>Feature Branch</b><b class="imagination">Workflow</b></p>
+    <div class="step" data-x="9700" data-y="-300" data-scale="1">
+         <p><b>Feature Branch </b><b class="imagination">Workflow</b></p>
     </div>
 
-    <div id="source2" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+    <div id="luke" class="step" data-x="6300" data-y="1000" data-rotate="20" data-scale="1">
         <p>Feature Branch Workflow</p>
-        <p>simple..</p>
-        <img src="/img/01.svg">
-        <p><sup>*</sup> podemos usar <strong>merge requests</strong></p>
-        <img src="/img/02.svg" alt="">
+        <br>
+        <p>Overview:</p>
+        <img src="img/01.svg">
+        <br>
+        <p>Simple use case:</p>
+        <br>
+        <img src="img/02.svg" alt="" style="float: right">
+        <img id="luke" src="img/luke2.gif" height="200px" style="float: right">
     </div>
 
-    <div id="one-more-thing2" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p><b>GitFlow</b><b class="imagination">Workflow</b></p>
+    <div class="step" data-x="6000" data-y="4000" data-scale="1">
+        <p><b>GitFlow </b><b class="imagination">Workflow</b></p>
     </div>
 
     <!--
@@ -326,10 +342,10 @@
         as `data-rotate` (these two are basically aliases).
 
     -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+    <div class="step" data-x="10200" data-y="600" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="1">
         <p><b>Que es?</b></p>
 
-        <p>Es un Framework de manejo de branches basado a partir de un project release.</p>
+        <p>Es un Framework de manejo de branches pensado para hacer project releases.</p>
 
         <!--<p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>-->
         <!--<span class="footnote">* beat that, prezi ;)</span>-->
@@ -350,53 +366,79 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
 
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    <div class="step" data-x="3000" data-y="1500" data-scale="1">
         <p><b>Como se ve?</b></p>
+        <br>
         <img src="img/03.svg" alt="">
     </div>
 
-    <div id="overview2" class="step" data-x="3000" data-y="2500" data-scale="10">
+    <div class="step" data-x="-3000" data-y="2500" data-scale="1">
         <p><b>Que hay de nuevo viejo? (con respecto a Feature Branch)</b></p>
+        <br>
         <img src="img/04.svg" alt="">
+        <br>
         <p><sup>*</sup> <strong>Tag de commits</strong></p>
     </div>
 
-    <div id="overview3" class="step" data-x="4000" data-y="2500" data-scale="10">
+    <div  class="step" data-x="4000" data-y="8500" data-scale="1">
         <p><b>Como hago un Feature Branch ahora?</b></p>
         <img src="img/05.svg" alt="">
         <p><sup>*</sup> <strong>Separados</strong> de Master</p>
     </div>
 
-    <div id="overview4" class="step" data-x="5000" data-y="3500" data-rotate-x="-40" data-rotate-y="10" data-scale="8">
+    <div class="step" data-x="5000" data-y="3500" data-rotate-x="-40" data-rotate-y="10" data-scale="1">
         <p><b>Release Branches</b></p>
+        <br>
         <img src="img/06.svg" alt="">
-        <p><sup>*</sup> <strong>Separados</strong> de Master</p>
-        <ul>
-            <li>Nace de develop</li>
-            <li>Naming convention release-* o release/*</li>
-            <li>Pasa por testing.. y si QA aprueba.. </li>
-        </ul>
+
+        <p>- Nace de develop</p>
+        <p>- Naming convention release-*</p>
+        <p>- Pasa por testing.. y si QA aprueba.. </p>
+
     </div>
 
-    <div id="overview5" class="step" data-x="6000" data-y="4500" data-rotate-x="80" data-rotate-y="20" data-scale="8">
+    <div  class="step" data-x="6000" data-y="5500" data-scale="1">
+        <p><b>Mantenimiento de Branches</b></p>
+        <p><b>HotFIX</b></p>
+        <br>
+        <img src="img/vader.gif" height="300px" style="margin-left: 400px;">
+    </div>
+
+    <div  class="step" data-x="7000" data-y="4000" data-scale="1">
+        <img src="img/07.svg" alt="">
+        <p><sup>*</sup> <strong>Separados</strong> de Master</p>
+        <p><sup>*</sup> Unico branch que toca master..</p>
+        <p><supevitamos>*</supevitamos> Evitamos hacer un release</p>
+        <p><sup>*</sup> Se taggea.</p>
+
+    </div>
+
+    <div  class="step" data-x="1000" data-y="500" data-rotate-x="80" data-rotate-y="20" data-scale="1">
         <p><b>Forking </b><b class="imagination">Workflow</b></p>
     </div>
-    <div id="overview6" class="step" data-x="7000" data-y="4500" data-rotate-x="80" data-rotate-y="20" data-scale="8">
+    <div  class="step" data-x="7000" data-y="4500" data-rotate-x="80" data-rotate-y="20" data-scale="8">
         <p>Forking Workflow</p> <p>Como se ve?</p>
         <img src="img/08.svg" alt="">
         <p><sup>*</sup> <strong>Server side</strong> repositories por usuario desde un repositorio "oficial" (convention)</p>
     </div>
 
-    <div id="overview7" class="step" data-x="8000" data-y="5500" data-rotate-x="20" data-rotate-y="60" data-scale="10">
+    <div  class="step" data-x="8000" data-y="5500" data-rotate-x="20" data-rotate-y="60" data-scale="1">
         <p><b>Concluciones</b></p>
-        <ul>
-            <li>Feature Branch Workflow, es facil de usar/implementar nos permite hacer Code reviews</li>
-            <li>GitFlow Workflow, engloba Feature Branch Y nos da un mejor control/mantenimiento de Branches.</li>
-            <li>Forking Workflow, util conocerlo para tener una mejor idea de como colaborar a algun proyecto open source.</li>
-        </ul>
     </div>
 
-    <div id="overview8" class="step" data-x="9000" data-y="6500" data-rotate-x="70" data-rotate-y="10" data-scale="10">
+    <div  class="step" data-x="8000" data-y="8500" data-rotate-x="20" data-rotate-y="60" data-scale="1">
+        <p>Feature Branch Workflow, es facil de usar/implementar nos permite hacer Code reviews</p>
+    </div>
+
+    <div  class="step" data-x="8000" data-y="10500" data-rotate-x="20" data-rotate-y="60" data-scale="1">
+        <p>GitFlow Workflow, engloba Feature Branch Y nos da un mejor control/mantenimiento de Branches.</p>
+    </div>
+
+    <div  class="step" data-x="8000" data-y="15500" data-rotate-x="20" data-rotate-y="60" data-scale="1">
+        <p>Forking Workflow, util conocerlo para tener una mejor idea de como colaborar a algun proyecto open source.</p>
+    </div>
+
+    <div class="step" data-x="9000" data-y="6500" data-rotate-x="70" data-rotate-y="10" data-scale="1">
         <p><b>Thanks!</b></p>
     </div>
 
